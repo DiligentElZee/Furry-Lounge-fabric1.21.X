@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "furrylounge",
+	"version": "${version}",
+	"name": "Furry Lounge",
+	"description": "A mod for Furries, by a Furry.",
+	"authors": [
+		"DiligentElZee"
+	],
+	"contact": {
+		"homepage": "https://youtube.com/@DiligentElZee",
+		"sources": "https://github.com/DiligentElZee/Furry-Lounge-fabric1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/furrylounge/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.diligentelzee.furrylounge.FurryLounge"
+		],
+		"fabric-datagen": [
+			"net.diligentelzee.furrylounge.FurryLoungeDataGenerator"
+		],
+		"client": [
+			"net.diligentelzee.furrylounge.FurryLoungeClient"
+		]
+	},
+	"mixins": [
+		"furrylounge.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"modmenu-badges-lib": "*",
+		"no-realms-button": "*"
+	}
+}
