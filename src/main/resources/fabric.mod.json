@@ -38,5 +38,15 @@
 		"modmenu": "*",
 		"modmenu-badges-lib": "*",
 		"no-realms-button": "*"
+	},
+	"custom": {
+		"mcb": [
+			{
+				"name": "Furry",
+				"labelColor": -16173269,
+				"fillColor": -16674187,
+				"outlineColor": -6799673
+			}
+		]
 	}
 }
