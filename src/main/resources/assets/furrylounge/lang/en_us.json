@@ -1,6 +1,11 @@
 {
   "item.furrylounge.placeholder_item": "Placeholder Item",
-  "block.furrylounge.placeholder_block": "Placehodler Block",
+  "block.furrylounge.placeholder_ore": "Placeholder Ore",
+  "block.furrylounge.placeholder_block": "Placeholder Block",
   "item.furrylounge.placeholder_item_2": "Placeholder Item 2",
-  "block.furrylounge.placeholder_block_2": "Placeholder Block 2"
+  "block.furrylounge.placeholder_ore_2": "Placeholder Ore 2",
+  "block.furrylounge.placeholder_block_2": "Placeholder Block 2",
+
+  "itemgroup.furrylounge.items": "Items",
+  "itemgroup.furrylounge.blocks": "Blocks"
 }

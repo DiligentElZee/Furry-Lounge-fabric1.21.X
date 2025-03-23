@@ -1,33 +1,32 @@
 package net.diligentelzee.furrylounge;
 
 import net.diligentelzee.furrylounge.block.ModBlocks;
+import net.diligentelzee.furrylounge.item.ModItemGroups;
 import net.diligentelzee.furrylounge.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.desktop.QuitResponse;
-
-public class FurryLounge implements ModInitializer, QuitResponse {
+public class FurryLounge implements ModInitializer {
 	public static final String MOD_ID = "furrylounge";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 
-
 	@Override
 	public void onInitialize() {
-		FurryLounge.LOGGER.info("--- Welcome to the Furry Lounge!! >ω<");
+		FurryLounge.LOGGER.info("");
+		FurryLounge.LOGGER.info(";3c");
+		FurryLounge.LOGGER.info("");
+		FurryLounge.LOGGER.info("~~~ Welcome to the Furry Lounge!! >ω<");
+		FurryLounge.LOGGER.info("(Initializing the mod for you master!)");
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		FurryLounge.LOGGER.info("Hope you enjoy your time here! ^ω^ ---");
-	}
-	@Override
-	public void performQuit() {
-		FurryLounge.LOGGER.info("Hope you enjoyed your time here! •ω•");
-	}
-	@Override
-	public void cancelQuit() {
-		FurryLounge.LOGGER.info("You came back!?? 0ω0");
+		FurryLounge.LOGGER.info("(Mod has been successfully initialized, nya~!)");
+		FurryLounge.LOGGER.info("Hope you enjoy your time here! ^ω^ ~~~");
+		FurryLounge.LOGGER.info("");
+		FurryLounge.LOGGER.info("<3");
+		FurryLounge.LOGGER.info("");
 	}
 }

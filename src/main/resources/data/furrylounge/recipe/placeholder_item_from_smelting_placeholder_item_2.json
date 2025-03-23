@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.3,
+  "group": "placeholder_item",
+  "ingredient": {
+    "item": "furrylounge:placeholder_item_2"
+  },
+  "result": {
+    "id": "furrylounge:placeholder_item"
+  }
+}

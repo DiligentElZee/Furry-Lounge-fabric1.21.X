@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "furrylounge:placeholder_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "furrylounge:placeholder_item"
+  }
+}

@@ -19,7 +19,7 @@ public class ModItems {
      }
 
     public static void registerModItems() {
-        FurryLounge.LOGGER.info("Registering Mod Items for " + FurryLounge.MOD_ID);
+        FurryLounge.LOGGER.info("Registering Mod Items for mod '" + FurryLounge.MOD_ID + "'!");
 
         // Add Items to Inventory Tabs
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
