@@ -15,13 +15,13 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     // Register new Blocks here
-    public static final Block PLACEHOLDER_BLOCK = registerBlock("placeholder_block",
+    public static final Block BLOCK = registerBlock("block",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK).instrument(NoteBlockInstrument.HARP)
             ));
-    public static final Block PLACEHOLDER_BLOCK_2 = registerBlock("placeholder_block_2",
+    public static final Block BLOCK_2 = registerBlock("block_2",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
@@ -43,8 +43,8 @@ public class ModBlocks {
 
         // Add Blocks to Inventory Tabs
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.PLACEHOLDER_BLOCK);
-            entries.add(ModBlocks.PLACEHOLDER_BLOCK_2);
+            entries.add(ModBlocks.BLOCK);
+            entries.add(ModBlocks.BLOCK_2);
         });
     }
 }

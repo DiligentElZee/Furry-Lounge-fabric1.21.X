@@ -10,8 +10,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     // Register new Items here
-    public static final Item PLACEHOLDER_ITEM = registerItem("placeholder_item", new Item(new Item.Settings()));
-    public static final Item PLACEHOLDER_ITEM_2 = registerItem("placeholder_item_2", new Item(new Item.Settings()));
+    public static final Item ITEM = registerItem("item", new Item(new Item.Settings()));
+    public static final Item ITEM_2 = registerItem("item_2", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -23,8 +23,8 @@ public class ModItems {
 
         // Add Items to Inventory Tabs
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PLACEHOLDER_ITEM);
-            entries.add(PLACEHOLDER_ITEM_2);
+            entries.add(ITEM);
+            entries.add(ITEM_2);
         });
     }
 }
