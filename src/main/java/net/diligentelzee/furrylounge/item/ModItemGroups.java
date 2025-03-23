@@ -30,6 +30,8 @@ public class ModItemGroups {
                         // Add ModBlocks here
                         entries.add(ModBlocks.BLOCK);
                         entries.add(ModBlocks.BLOCK_2);
+                        entries.add(ModBlocks.ORE);
+                        entries.add(ModBlocks.ORE_2);
                     }).build());
 
     public static void registerItemGroups() {

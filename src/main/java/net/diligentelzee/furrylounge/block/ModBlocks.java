@@ -4,6 +4,7 @@ import net.diligentelzee.furrylounge.FurryLounge;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -12,21 +13,31 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     // Register new Blocks here
     public static final Block BLOCK = registerBlock("block",
             new Block(AbstractBlock.Settings.create()
-                    .strength(4f)
-                    .requiresTool()
+                    .strength(4f).requiresTool()
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK).instrument(NoteBlockInstrument.HARP)
             ));
     public static final Block BLOCK_2 = registerBlock("block_2",
             new Block(AbstractBlock.Settings.create()
-                    .strength(4f)
-                    .requiresTool()
+                    .strength(4f).requiresTool()
                     .sounds(BlockSoundGroup.WOOD).instrument(NoteBlockInstrument.BIT)
             ));
+
+    public static final Block ORE = registerBlock("ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create()
+                            .strength(3f).requiresTool()
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK).instrument(NoteBlockInstrument.HARP)));
+    public static final Block ORE_2 = registerBlock("ore_2",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create()
+                            .strength(3f).requiresTool()
+                            .sounds(BlockSoundGroup.WOOD).instrument(NoteBlockInstrument.BIT)));
 
     // Helper Methods
     private  static  Block registerBlock(String name, Block block) {
@@ -45,6 +56,10 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.BLOCK);
             entries.add(ModBlocks.BLOCK_2);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+            entries.add(ModBlocks.ORE);
+            entries.add(ModBlocks.ORE_2);
         });
     }
 }
