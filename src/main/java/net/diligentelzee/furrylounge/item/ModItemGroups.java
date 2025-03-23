@@ -20,6 +20,7 @@ public class ModItemGroups {
                         // Add ModItems here
                         entries.add(ModItems.ITEM);
                         entries.add(ModItems.ITEM_2);
+                        entries.add(ModItems.CONVERTER);
                     }).build());
     public static final ItemGroup FURRY_LOUNGE_BLOCKS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(FurryLounge.MOD_ID, "furry_lounge_blocks"),

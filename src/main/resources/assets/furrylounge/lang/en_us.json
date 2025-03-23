@@ -6,6 +6,8 @@
   "block.furrylounge.ore_2": "Placeholder Ore 2",
   "block.furrylounge.block_2": "Placeholder Block 2",
 
+  "item.furrylounge.converter": "Converter",
+
   "itemgroup.furrylounge.items": "Items",
   "itemgroup.furrylounge.blocks": "Blocks"
 }
