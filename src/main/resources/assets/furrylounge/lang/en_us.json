@@ -1,4 +1,7 @@
 {
+  "modmenu.nameTranslation.furrylounge": "Furry Lounge",
+  "modmenu.descriptionTranslation.furrylounge": "A mod for Furries, by a Furry!",
+
   "item.furrylounge.item": "Placeholder Item",
   "block.furrylounge.ore": "Placeholder Ore",
   "block.furrylounge.block": "Placeholder Block",
@@ -7,6 +10,7 @@
   "block.furrylounge.block_2": "Placeholder Block 2",
 
   "item.furrylounge.converter": "Converter",
+  "block.furrylounge.magic_block": "Magic Block",
 
   "itemgroup.furrylounge.items": "Items",
   "itemgroup.furrylounge.blocks": "Blocks"

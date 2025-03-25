@@ -40,7 +40,13 @@
 		"no-realms-button": "*"
 	},
 	"custom": {
-		"mcb": [
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/PqzeVujeJb"
+			},
+			"update_checker": true
+		},
+			"mcb": [
 			{
 				"name": "Furry",
 				"labelColor": -16173269,

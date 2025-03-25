@@ -1,6 +1,7 @@
 package net.diligentelzee.furrylounge.block;
 
 import net.diligentelzee.furrylounge.FurryLounge;
+import net.diligentelzee.furrylounge.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -38,6 +39,10 @@ public class ModBlocks {
                     AbstractBlock.Settings.create()
                             .strength(3f).requiresTool()
                             .sounds(BlockSoundGroup.WOOD).instrument(NoteBlockInstrument.BIT)));
+
+    // Register Custom Blocks here
+    public static final Block MAGIC_BLOCK =registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     // Helper Methods
     private  static  Block registerBlock(String name, Block block) {

@@ -33,6 +33,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLOCK_2);
                         entries.add(ModBlocks.ORE);
                         entries.add(ModBlocks.ORE_2);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
