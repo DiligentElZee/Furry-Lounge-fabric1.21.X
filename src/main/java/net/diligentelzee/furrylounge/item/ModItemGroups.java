@@ -18,10 +18,20 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.furrylounge.items"))
                     .entries((displayContext, entries) -> {
                         // Add ModItems here
-                        entries.add(ModItems.ITEM);
-                        entries.add(ModItems.ITEM_2);
-                        entries.add(ModItems.CONVERTER);
                     }).build());
+
+    public static final ItemGroup FURRY_LOUNGE_FOOD = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(FurryLounge.MOD_ID, "furry_lounge_food"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModItems.TWINX))
+                    .displayName(Text.translatable("itemgroup.furrylounge.food"))
+                    .entries((displayContext, entries) -> {
+                        // Add ModItems here
+                        entries.add(ModItems.TWINX);
+                        entries.add(ModItems.SUSHI_FOX);
+                        entries.add(ModItems.SNEPSI);
+                    }).build());
+
     public static final ItemGroup FURRY_LOUNGE_BLOCKS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(FurryLounge.MOD_ID, "furry_lounge_blocks"),
             FabricItemGroup.builder()
@@ -29,13 +39,26 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.furrylounge.blocks"))
                     .entries((displayContext, entries) -> {
                         // Add ModBlocks here
+                        entries.add(ModBlocks.MAGIC_BLOCK);
+                    }).build());
+
+
+    public static final ItemGroup FURRY_LOUNGE_UNOBTAINABLE = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(FurryLounge.MOD_ID, "furry_lounge_unobtainable"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModItems.CONVERTER))
+                    .displayName(Text.translatable("itemgroup.furrylounge.unobtainable"))
+                    .entries((displayContext, entries) -> {
+                        // Add stuff NOT obtainable in Survival here
+                        entries.add(ModItems.ITEM);
+                        entries.add(ModItems.ITEM_2);
+                        entries.add(ModItems.CONVERTER);
+                        entries.add(ModItems.FUEL);
                         entries.add(ModBlocks.BLOCK);
                         entries.add(ModBlocks.BLOCK_2);
                         entries.add(ModBlocks.ORE);
                         entries.add(ModBlocks.ORE_2);
-                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
-
     public static void registerItemGroups() {
         FurryLounge.LOGGER.info("Registering ItemGroups for mod '" + FurryLounge.MOD_ID + "'!");
     }

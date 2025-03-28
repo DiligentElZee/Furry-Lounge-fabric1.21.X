@@ -3,6 +3,7 @@ package net.diligentelzee.furrylounge;
 import net.diligentelzee.furrylounge.block.ModBlocks;
 import net.diligentelzee.furrylounge.item.ModItemGroups;
 import net.diligentelzee.furrylounge.item.ModItems;
+import net.diligentelzee.furrylounge.item.custom.FuelItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -23,6 +24,7 @@ public class FurryLounge implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FuelItems.registerModFuelItems();
 		FurryLounge.LOGGER.info("(Mod has been successfully initialized, nya~!)");
 		FurryLounge.LOGGER.info("Hope you enjoy your time here! ^ω^ ~~~");
 		FurryLounge.LOGGER.info("");

@@ -44,6 +44,10 @@ public class ModBlocks {
     public static final Block MAGIC_BLOCK =registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
+    public static void register() {
+        Registry.register(Registries.BLOCK, Identifier.of("furrylounge", "magic_block"), MAGIC_BLOCK);
+    }
+
     // Helper Methods
     private  static  Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -55,7 +59,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        FurryLounge.LOGGER.info("Registering Mod Blocks for " + FurryLounge.MOD_ID);
+        FurryLounge.LOGGER.info("Registering Mod Blocks for '" + FurryLounge.MOD_ID + "'");
 
         // Add Blocks to Inventory Tabs
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {

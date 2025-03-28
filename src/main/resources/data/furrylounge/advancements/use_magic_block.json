@@ -1,0 +1,26 @@
+{
+  "parent": "furrylounge:root",
+  "display": {
+    "icon": {
+      "item": "furrylounge:magic_block"
+    },
+    "title": {
+      "translate": "advancements.furrylounge.transform_block_use.title"
+    },
+    "description": {
+      "translate": "advancements.furrylounge.transform_block_use.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "right_click": {
+      "trigger": "minecraft:player_interacted_with_block",
+      "conditions": {
+        "block": "furrylounge:magic_block"
+      }
+    }
+  }
+}

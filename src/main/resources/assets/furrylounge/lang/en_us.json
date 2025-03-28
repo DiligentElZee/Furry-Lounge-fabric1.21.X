@@ -9,9 +9,23 @@
   "block.furrylounge.ore_2": "Placeholder Ore 2",
   "block.furrylounge.block_2": "Placeholder Block 2",
 
+  "item.furrylounge.fuel": "Fuel (das hot~)",
+
   "item.furrylounge.converter": "Converter",
   "block.furrylounge.magic_block": "Magic Block",
 
   "itemgroup.furrylounge.items": "Items",
-  "itemgroup.furrylounge.blocks": "Blocks"
+  "itemgroup.furrylounge.blocks": "Blocks",
+  "itemgroup.furrylounge.food": "Foods",
+
+  "item.furrylounge.twinx": "Twinx",
+  "item.furrylounge.sushi_fox": "Sushi Fox",
+  "item.furrylounge.snepsi": "Snepsi Cola",
+
+  "advancements.furrylounge.root.title": "Welcome to the Furry Lounge!",
+  "advancements.furrylounge.root.description": "Thank you for playing this mod!",
+  "advancements.furrylounge.transform_block_use.title": "Transfurmation",
+  "advancements.furrylounge.transform_block_use.description": "Interact with the Magic Block!",
+  "advancements.furrylounge.sushi_fox_eaten.title": "You monster...",
+  "advancements.furrylounge.sushi_fox_eaten.description": "How dare you eat that goober..."
 }
