@@ -42,7 +42,6 @@ public class ConverterItem extends Item {
                 world.playSound(null, context.getBlockPos(), SoundEvents.ENTITY_FOX_TELEPORT, SoundCategory.BLOCKS);
             }
         }
-
         return ActionResult.SUCCESS;
     }
 }

@@ -10,11 +10,16 @@ import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
+
+import java.util.List;
 
 public class ModBlocks {
     // Register new Blocks here
@@ -41,8 +46,15 @@ public class ModBlocks {
                             .sounds(BlockSoundGroup.WOOD).instrument(NoteBlockInstrument.BIT)));
 
     // Register Custom Blocks here
-    public static final Block MAGIC_BLOCK =registerBlock("magic_block",
-            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()
+                    .luminance(state -> state.get(MagicBlock.LIT) ? 11 : 6)) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.furrylounge.magicblock"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
 
     public static void register() {
         Registry.register(Registries.BLOCK, Identifier.of("furrylounge", "magic_block"), MAGIC_BLOCK);

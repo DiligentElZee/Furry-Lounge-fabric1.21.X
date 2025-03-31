@@ -27,5 +27,15 @@
   "advancements.furrylounge.transform_block_use.title": "Transfurmation",
   "advancements.furrylounge.transform_block_use.description": "Interact with the Magic Block!",
   "advancements.furrylounge.sushi_fox_eaten.title": "You monster...",
-  "advancements.furrylounge.sushi_fox_eaten.description": "How dare you eat that goober..."
+  "advancements.furrylounge.sushi_fox_eaten.description": "How dare you eat that goober...",
+
+  "tooltip.furrylounge.magicblock": "This §eblock§r is very, very §d§lMAGICAL§r!",
+
+  "tooltip.furrylounge.converter": "Press §e§lSHIFT§r for more information!",
+  "tooltip.furrylounge.converter.shift_down": "Use this §eitem§r on specific §eblocks§r to ",
+  "tooltip.furrylounge.converter.shift_down2": "convert them into their §d§lcounterparts§r!!",
+
+  "tooltip.furrylounge.twinx": "Very §b§lyummy~§r!",
+  "tooltip.furrylounge.sushi_fox": "§4Don't even §othink§r §4about it.",
+  "tooltip.furrylounge.snepsi": "Refreshing §9drink§r!"
 }
