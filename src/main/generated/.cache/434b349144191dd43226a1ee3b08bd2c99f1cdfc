@@ -1,0 +1,6 @@
+// 1.21	2025-04-01T17:25:32.020991	Furry Lounge/Block Loot Tables
+c71464b71fd6510ddeca491033d69164d2f08c07 data/furrylounge/loot_table/blocks/block.json
+243541abb0d091b06c27026c47c669e6e45ce678 data/furrylounge/loot_table/blocks/block_2.json
+71e4104c71095f7d88637dffb503fff4b47b0839 data/furrylounge/loot_table/blocks/ore_2.json
+9ba4605e3cf2f9325c30a5d6ebf1df706890916f data/furrylounge/loot_table/blocks/magic_block.json
+9b105bff7f890c904eca8388d5070e8942590a9f data/furrylounge/loot_table/blocks/ore.json

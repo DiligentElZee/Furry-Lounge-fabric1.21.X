@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:furrylounge/root",
+  "criteria": {
+    "ate_sushi_fox": {
+      "conditions": {
+        "item": {
+          "items": "furrylounge:sushi_fox"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": "§4§lHow could you??§r",
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "furrylounge:sushi_fox"
+    },
+    "title": "§4§lYou Monster...§r"
+  },
+  "requirements": [
+    [
+      "ate_sushi_fox"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

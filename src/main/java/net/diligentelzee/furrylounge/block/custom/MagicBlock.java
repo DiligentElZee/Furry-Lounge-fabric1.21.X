@@ -1,6 +1,6 @@
 package net.diligentelzee.furrylounge.block.custom;
 
-import net.diligentelzee.furrylounge.item.ModItems;
+import net.diligentelzee.furrylounge.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -58,19 +58,14 @@ public class MagicBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof ItemEntity itemEntity) {
-            if (itemEntity.getStack().getItem() == ModItems.ITEM) {
+            if (isValidEntity(itemEntity.getStack())) {
                 itemEntity.setStack(new ItemStack(Items.DIAMOND, itemEntity.getStack().getCount()));
                 world.setBlockState(pos, state.with(LIT, true), 3);
                 world.playSound(null, pos, SoundEvents.BLOCK_BEACON_ACTIVATE, SoundCategory.BLOCKS, 0.5F, 1.1F);
                 world.scheduleBlockTick(pos, this, 20);
             }
-            if (itemEntity.getStack().getItem() == ModItems.ITEM_2) {
-                itemEntity.setStack(new ItemStack(Items.EMERALD, itemEntity.getStack().getCount()));
-                world.setBlockState(pos, state.with(LIT, true), 3);
-                world.playSound(null, pos, SoundEvents.BLOCK_BEACON_ACTIVATE, SoundCategory.BLOCKS, 0.5F, 1.1F);
-                world.scheduleBlockTick(pos, this, 20);
-            }
         }
+
 
         if (!world.isClient
                 && !(entity instanceof FoxEntity) 
@@ -98,5 +93,8 @@ public class MagicBlock extends Block {
             }
         }
         super.onSteppedOn(world, pos, state, entity);
+    }
+    private boolean isValidEntity(ItemStack stack) {
+        return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 }

@@ -21,6 +21,7 @@ public class FurryLounge implements ModInitializer {
 		FurryLounge.LOGGER.info("");
 		FurryLounge.LOGGER.info("~~~ Welcome to the Furry Lounge!! >ω<");
 		FurryLounge.LOGGER.info("(Initializing the mod for you master!)");
+		FurryLoungeDataGenerator.registerModDataGen();
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();

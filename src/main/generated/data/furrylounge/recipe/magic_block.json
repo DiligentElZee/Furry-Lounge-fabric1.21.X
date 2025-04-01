@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    "SDS",
+    "ESE",
+    "SDS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "furrylounge:magic_block"
+  }
+}

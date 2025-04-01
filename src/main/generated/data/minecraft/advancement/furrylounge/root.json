@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "The §gROOT§r of the §b§lFurry Lounge§r §eadvancements§r!",
+    "icon": {
+      "count": 1,
+      "id": "furrylounge:item"
+    },
+    "title": "§b§lFurry Lounge§r"
+  },
+  "requirements": [
+    [
+      "join"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

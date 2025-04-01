@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 105,
+  "experience": 0.25,
+  "group": "item_2",
+  "ingredient": {
+    "item": "furrylounge:ore_2"
+  },
+  "result": {
+    "id": "furrylounge:item_2"
+  }
+}

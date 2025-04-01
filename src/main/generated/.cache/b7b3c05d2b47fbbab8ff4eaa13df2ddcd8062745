@@ -1,0 +1,4 @@
+// 1.21	2025-04-01T17:25:31.980426	Furry Lounge/Tags for minecraft:block
+3e52e6f2c4791f2717b8e2bc5aac167b121b4f94 data/minecraft/tags/block/mineable/pickaxe.json
+2ac886f13cf8e33ff5622124a8091ce90725109c data/minecraft/tags/block/needs_iron_tool.json
+0562a610f5e35da6e420e9be1e3cfe0d266f8409 data/minecraft/tags/block/needs_diamond_tool.json

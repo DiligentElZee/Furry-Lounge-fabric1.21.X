@@ -1,0 +1,23 @@
+// 1.21	2025-04-01T17:25:32.000139	Furry Lounge/Model Definitions
+7158b99d481f2c81d3f6cd9555d9f64d2b65e1e9 assets/furrylounge/models/item/block.json
+7ad1fca8b9c1c38564d1a8f91120041b98fe02c8 assets/furrylounge/blockstates/magic_block.json
+74d2202c0b504283b161300cdb3ea7c51ddff5da assets/furrylounge/blockstates/block.json
+7d65ed454424cd35022616d7218739abcb502ab0 assets/furrylounge/blockstates/block_2.json
+38134dea743028f26dc779dc7d2e8eead1ba4f4d assets/furrylounge/models/item/fuel.json
+623dbe47ec018ed93191b21b69de2dd3d1601a6b assets/furrylounge/models/item/ore.json
+072f8865da7aaaffd13863ecff48b3a563580342 assets/furrylounge/models/block/ore.json
+92f6573e323ad79ff2cf0dc410a1c4be23075b72 assets/furrylounge/models/item/block_2.json
+aa054d49973147468d34eb743744ec20b350a4b9 assets/furrylounge/models/block/ore_2.json
+b1f0990ac6e3372e478eba8897c4ed5c88536ccf assets/furrylounge/models/item/snepsi.json
+9338d1557f376d62bf8aeebf34d3e6ff44628788 assets/furrylounge/models/item/item.json
+db1d494baba528b82e4e6685910e1761f1175e53 assets/furrylounge/models/item/twinx.json
+5f37ca5b18876440156699f951237ff6f4a4de2d assets/furrylounge/models/item/converter.json
+2d6b24f7a072bc9f99b9770490e7756faaab4bc6 assets/furrylounge/models/item/ore_2.json
+c800eaadf711671e91dabd409579a4f6a4526895 assets/furrylounge/blockstates/ore_2.json
+0a27feaf24fabdeb20cd155c87c836443c6c459c assets/furrylounge/models/item/sushi_fox.json
+9eea7ca00e3cd398df48a47fba69423af311fd7f assets/furrylounge/blockstates/ore.json
+cf1d9d368b807310e9e2201ecad51b84e3b69c1a assets/furrylounge/models/block/block_2.json
+7b234cfa930e9590aa674a8e29bcd34bd6328629 assets/furrylounge/models/block/block.json
+c14a0ab9531cd629e9ad6759dcf5a0d8d39b3994 assets/furrylounge/models/item/item_2.json
+90d9bb26e74df33ed01dbb79bab938badef89c0f assets/furrylounge/models/item/magic_block.json
+a5c070a542171ce1ca49a1d1fd259270e429e406 assets/furrylounge/models/block/magic_block.json
