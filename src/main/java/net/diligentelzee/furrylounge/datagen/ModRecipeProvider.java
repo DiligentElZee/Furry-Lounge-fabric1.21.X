@@ -10,6 +10,7 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -58,5 +59,39 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.MAGIC_BLOCK)
                 .criterion(hasItem(ModBlocks.MAGIC_BLOCK), conditionsFromItem(ModBlocks.MAGIC_BLOCK))
                 .offerTo(exporter, Identifier.of(FurryLounge.MOD_ID, "item_from_magic_block"));
+
+         createDoorRecipe(ModBlocks.DOOR, Ingredient.ofItems(ModItems.ITEM))
+                 .criterion(hasItem(ModItems.ITEM), conditionsFromItem(ModItems.ITEM))
+                 .offerTo(exporter);
+         createDoorRecipe(ModBlocks.DOOR_2, Ingredient.ofItems(ModItems.ITEM_2))
+                 .criterion(hasItem(ModItems.ITEM_2), conditionsFromItem(ModItems.ITEM_2))
+                 .offerTo(exporter);
+
+         createTrapdoorRecipe(ModBlocks.TRAPDOOR, Ingredient.ofItems(ModItems.ITEM));
+         createTrapdoorRecipe(ModBlocks.TRAPDOOR_2, Ingredient.ofItems(ModItems.ITEM_2));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SLAB, Ingredient.ofItems(ModBlocks.BLOCK))
+                .criterion("has_block", conditionsFromItem(ModBlocks.BLOCK))
+                .offerTo(exporter);
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SLAB_2, Ingredient.ofItems(ModBlocks.BLOCK_2))
+                .criterion("has_block_2", conditionsFromItem(ModBlocks.BLOCK_2))
+                .offerTo(exporter);
+
+        createFenceRecipe(ModBlocks.FENCE, Ingredient.ofItems(ModItems.ITEM));
+        createFenceRecipe(ModBlocks.FENCE_2, Ingredient.ofItems(ModItems.ITEM_2));
+
+        createFenceGateRecipe(ModBlocks.FENCE_GATE, Ingredient.ofItems(ModItems.ITEM));
+        createFenceGateRecipe(ModBlocks.FENCE_GATE_2, Ingredient.ofItems(ModItems.ITEM_2));
+
+        getWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WALL, Ingredient.ofItems(ModItems.ITEM));
+        getWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WALL_2, Ingredient.ofItems(ModItems.ITEM_2));
+
+        createTransmutationRecipe(ModBlocks.BUTTON, Ingredient.ofItems(ModItems.ITEM));
+        createTransmutationRecipe(ModBlocks.BUTTON_2, Ingredient.ofItems(ModItems.ITEM_2));
+
+        createPressurePlateRecipe(RecipeCategory.REDSTONE, ModBlocks.PRESSURE_PLATE,
+                Ingredient.ofItems(ModItems.ITEM));
+        createPressurePlateRecipe(RecipeCategory.REDSTONE, ModBlocks.PRESSURE_PLATE_2,
+                Ingredient.ofItems(ModItems.ITEM_2));
     }
 }

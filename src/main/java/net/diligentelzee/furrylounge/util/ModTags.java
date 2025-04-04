@@ -11,6 +11,8 @@ public class ModTags {
 
     public static class Blocks {
         public static final TagKey<Block> CONVERTIBLE_BLOCKS = createTag("convertible_blocks");
+        public static final TagKey<Block> ITEM_ORE = createTag("item_ore");
+        public static final TagKey<Block> ITEM_ORE_2 = createTag("item_ore_2");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(FurryLounge.MOD_ID, name));

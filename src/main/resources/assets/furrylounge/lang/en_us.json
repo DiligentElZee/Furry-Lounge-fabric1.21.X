@@ -9,6 +9,25 @@
   "block.furrylounge.ore_2": "Placeholder Ore 2",
   "block.furrylounge.block_2": "Placeholder Block 2",
 
+  "block.furrylounge.stairs": "Stairs",
+  "block.furrylounge.stairs_2": "Stairs 2",
+  "block.furrylounge.slab": "Slab",
+  "block.furrylounge.slab_2": "Slab 2",
+  "block.furrylounge.button": "Button",
+  "block.furrylounge.button_2": "Button 2",
+  "block.furrylounge.pressure_plate": "Pressure Plate",
+  "block.furrylounge.pressure_plate_2": "Pressure Plate 2",
+  "block.furrylounge.fence": "Fence",
+  "block.furrylounge.fence_2": "Fence 2",
+  "block.furrylounge.fence_gate": "Fence Gate",
+  "block.furrylounge.fence_gate_2": "Fence Gate 2",
+  "block.furrylounge.wall": "Wall",
+  "block.furrylounge.wall_2": "Wall 2",
+  "block.furrylounge.door": "Door",
+  "block.furrylounge.door_2": "Door 2",
+  "block.furrylounge.trapdoor": "Trapdoor",
+  "block.furrylounge.trapdoor_2": "Trapdoor 2",
+
   "item.furrylounge.fuel": "Fuel (das hot~)",
 
   "item.furrylounge.converter": "Converter",
@@ -17,17 +36,12 @@
   "itemgroup.furrylounge.items": "Items",
   "itemgroup.furrylounge.blocks": "Blocks",
   "itemgroup.furrylounge.food": "Foods",
+  "itemgroup.furrylounge.unobtainable": "itemgroup.furrylounge.unobtainable",
+  "itemgroup.furrylounge.building": "Building Blocks",
 
   "item.furrylounge.twinx": "Twinx",
   "item.furrylounge.sushi_fox": "Sushi Fox",
   "item.furrylounge.snepsi": "Snepsi Cola",
-
-  "advancements.furrylounge.root.title": "Welcome to the Furry Lounge!",
-  "advancements.furrylounge.root.description": "Thank you for playing this mod!",
-  "advancements.furrylounge.transform_block_use.title": "Transfurmation",
-  "advancements.furrylounge.transform_block_use.description": "Interact with the Magic Block!",
-  "advancements.furrylounge.sushi_fox_eaten.title": "You monster...",
-  "advancements.furrylounge.sushi_fox_eaten.description": "How dare you eat that goober...",
 
   "tooltip.furrylounge.magicblock": "This §eblock§r is very, very §d§lMAGICAL§r!",
 

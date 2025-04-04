@@ -29,11 +29,39 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.BLOCK);
         addDrop(ModBlocks.BLOCK_2);
+
         addDrop(ModBlocks.MAGIC_BLOCK);
 
         addDrop(ModBlocks.ORE, oreDrops(ModBlocks.ORE, ModItems.ITEM));
         addDrop(ModBlocks.ORE_2, multipleOreDrops(ModBlocks.ORE_2, ModItems.ITEM_2, 1, 3));
-    }
+
+        addDrop(ModBlocks.STAIRS);
+        addDrop(ModBlocks.STAIRS_2);
+
+        addDrop(ModBlocks.BUTTON);
+        addDrop(ModBlocks.BUTTON_2);
+
+        addDrop(ModBlocks.PRESSURE_PLATE);
+        addDrop(ModBlocks.PRESSURE_PLATE_2);
+
+        addDrop(ModBlocks.WALL);
+        addDrop(ModBlocks.WALL_2);
+
+        addDrop(ModBlocks.FENCE);
+        addDrop(ModBlocks.FENCE_2);
+
+        addDrop(ModBlocks.FENCE_GATE);
+        addDrop(ModBlocks.FENCE_GATE_2);
+
+        addDrop(ModBlocks.DOOR, doorDrops(ModBlocks.DOOR));
+        addDrop(ModBlocks.DOOR_2, doorDrops(ModBlocks.DOOR_2));
+
+        addDrop(ModBlocks.TRAPDOOR);
+        addDrop(ModBlocks.TRAPDOOR_2);
+
+        addDrop(ModBlocks.SLAB, slabDrops(ModBlocks.SLAB));
+        addDrop(ModBlocks.SLAB_2, slabDrops(ModBlocks.SLAB_2));
+}
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
         RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
