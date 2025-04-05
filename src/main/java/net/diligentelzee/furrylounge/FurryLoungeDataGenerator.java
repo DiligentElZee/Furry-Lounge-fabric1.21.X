@@ -16,8 +16,4 @@ public class FurryLoungeDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModAdvancementProvider::new);
 	}
-
-	public static void registerModDataGen() {
-		FurryLounge.LOGGER.info("Registering Mod Data Generation for '" + FurryLounge.MOD_ID + "'");
-	}
 }

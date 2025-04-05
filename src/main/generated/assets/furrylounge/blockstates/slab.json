@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "furrylounge:block/slab"
+    },
+    "type=double": {
+      "model": "furrylounge:block/block"
+    },
+    "type=top": {
+      "model": "furrylounge:block/slab_top"
+    }
+  }
+}

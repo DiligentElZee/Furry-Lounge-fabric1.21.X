@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "furrylounge:block/pressure_plate_2"
+    },
+    "powered=true": {
+      "model": "furrylounge:block/pressure_plate_2_down"
+    }
+  }
+}

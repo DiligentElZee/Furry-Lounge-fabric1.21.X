@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "furrylounge:block/block_2",
+    "side": "furrylounge:block/block_2",
+    "top": "furrylounge:block/block_2"
+  }
+}

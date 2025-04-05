@@ -84,9 +84,9 @@ public class ModBlocks {
     public static final Block FENCE_2 = registerBlock("fence_2",
             new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
     public static final Block FENCE_GATE = registerBlock("fence_gate",
-            new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new FenceGateBlock(WoodType.WARPED, AbstractBlock.Settings.create().strength(2f).requiresTool()));
     public static final Block FENCE_GATE_2 = registerBlock("fence_gate_2",
-            new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new FenceGateBlock(WoodType.CRIMSON, AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block WALL = registerBlock("wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));

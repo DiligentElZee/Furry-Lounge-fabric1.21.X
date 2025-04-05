@@ -1,4 +1,15 @@
-// 1.21	2025-04-01T17:25:31.980426	Furry Lounge/Tags for minecraft:block
+// 1.21	2025-04-05T17:24:42.75039	Furry Lounge/Tags for minecraft:block
+c082d59c6bdf78b85b643eb9f8d8fa0353dab501 data/minecraft/tags/block/pressure_plates.json
+ecdfcc8b649b50deabdad7a409b69f6158d62f73 data/minecraft/tags/block/stairs.json
+e74227bed61036df5e199ca31c3a14042b537d8a data/minecraft/tags/block/walls.json
 3e52e6f2c4791f2717b8e2bc5aac167b121b4f94 data/minecraft/tags/block/mineable/pickaxe.json
-2ac886f13cf8e33ff5622124a8091ce90725109c data/minecraft/tags/block/needs_iron_tool.json
+b9e2cccb74613f1e897d5d880b8df4c1644dc668 data/minecraft/tags/block/buttons.json
 0562a610f5e35da6e420e9be1e3cfe0d266f8409 data/minecraft/tags/block/needs_diamond_tool.json
+accca5de72851ec5f9dccb7abe49ed7a399f00b5 data/minecraft/tags/block/fences.json
+1796e7fa62c5b9db8c73bd008464737efaeeef28 data/furrylounge/tags/block/item_ore.json
+05514d4c1162748055c71d0e22c56f187d4adbb9 data/minecraft/tags/block/doors.json
+d13359ac76c09fb1d20ee291f6ff0f335a67d541 data/minecraft/tags/block/slabs.json
+a6d2a025e19ebf6fd4fc5ad552c95bfcd45179b7 data/minecraft/tags/block/trapdoors.json
+9c2d4d97e28b9584c7870d4c043c4ffb02c335a5 data/furrylounge/tags/block/item_ore_2.json
+accca5de72851ec5f9dccb7abe49ed7a399f00b5 data/minecraft/tags/block/wooden_fences.json
+2ac886f13cf8e33ff5622124a8091ce90725109c data/minecraft/tags/block/needs_iron_tool.json

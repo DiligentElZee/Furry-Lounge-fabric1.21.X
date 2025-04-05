@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "furrylounge:block/door_bottom",
+    "top": "furrylounge:block/door_top"
+  }
+}

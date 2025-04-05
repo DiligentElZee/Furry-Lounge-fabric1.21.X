@@ -1,6 +1,24 @@
-// 1.21	2025-04-01T17:25:32.020991	Furry Lounge/Block Loot Tables
-c71464b71fd6510ddeca491033d69164d2f08c07 data/furrylounge/loot_table/blocks/block.json
-243541abb0d091b06c27026c47c669e6e45ce678 data/furrylounge/loot_table/blocks/block_2.json
+// 1.21	2025-04-05T17:24:42.758886	Furry Lounge/Block Loot Tables
+06535476f9fa4ee215fcaaebcdd03f4b9c7611ac data/furrylounge/loot_table/blocks/stairs.json
+5ffe72173c7d1ee714e71423bdd162c80ffbcd01 data/furrylounge/loot_table/blocks/trapdoor_2.json
+34bdc6b1e6ff2b41c534604df170febb7b93b57d data/furrylounge/loot_table/blocks/stairs_2.json
+ed78845c28ce888574c15f07e3bf825c2d352e54 data/furrylounge/loot_table/blocks/wall.json
+6824c92dde0cb566a559469b986e9b8e5d6a8874 data/furrylounge/loot_table/blocks/fence.json
 71e4104c71095f7d88637dffb503fff4b47b0839 data/furrylounge/loot_table/blocks/ore_2.json
+1ee233d3028b03ebf6819d9f4b95f60f32736f9f data/furrylounge/loot_table/blocks/button.json
+cd886f560e2c68442d5eeb3fd4bfa96002d2718c data/furrylounge/loot_table/blocks/fence_2.json
+7c8aaa47cdab3b034503864bcf374adf6909a8ad data/furrylounge/loot_table/blocks/door_2.json
+88da7b4f5f8d2157962b80023ce30a50224fe914 data/furrylounge/loot_table/blocks/pressure_plate.json
+1f4ad5430396aae752de62c46d931ab08156a40c data/furrylounge/loot_table/blocks/fence_gate_2.json
+76608b168b2caf2257053b77e9a6a1f72c6822cd data/furrylounge/loot_table/blocks/trapdoor.json
+0cd7e8d6eebb6d6294be0e0c83e64b477dd1d0ae data/furrylounge/loot_table/blocks/pressure_plate_2.json
+e638bfa26c0f34d4b378c39b3966cb6d26f8eff5 data/furrylounge/loot_table/blocks/slab_2.json
+c71464b71fd6510ddeca491033d69164d2f08c07 data/furrylounge/loot_table/blocks/block.json
+47110ff2247d5ed1d273f4c5e4b76340bfe5ea79 data/furrylounge/loot_table/blocks/slab.json
+09242b39ba9df5922b306aa31632aec9a50c3fa5 data/furrylounge/loot_table/blocks/fence_gate.json
+243541abb0d091b06c27026c47c669e6e45ce678 data/furrylounge/loot_table/blocks/block_2.json
+7e8185a02b34cdfb48bcbba079e2a3f16d5219cf data/furrylounge/loot_table/blocks/button_2.json
 9ba4605e3cf2f9325c30a5d6ebf1df706890916f data/furrylounge/loot_table/blocks/magic_block.json
+3a95e54228f04c80ff0f6b537e574ff117fb0f5c data/furrylounge/loot_table/blocks/wall_2.json
 9b105bff7f890c904eca8388d5070e8942590a9f data/furrylounge/loot_table/blocks/ore.json
+2a05660a4909cbc69e6303218ec43ed5d2e5944a data/furrylounge/loot_table/blocks/door.json
